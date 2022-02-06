@@ -20,15 +20,15 @@ export default function Topbar() {
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">
-            <Person/>
+            <Person className="topbarIcon"/>
             <span className="topbarIconBadge">1</span>
           </div>
           <div className="topbarIconItem">
-            <Chat/>
+            <Chat className="topbarIcon"/>
             <span className="topbarIconBadge">1</span>
           </div>
           <div className="topbarIconItem">
-            <Notifications/>
+            <Notifications className="topbarIcon"/>
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
