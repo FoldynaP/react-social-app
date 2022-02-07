@@ -1,5 +1,5 @@
 import "./Feed.css";
-import Share from "../../components/share/Share"
+import Share from "../share/Share"
 
 export default function Feed() {
   return (
