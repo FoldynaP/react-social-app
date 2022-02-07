@@ -2,5 +2,62 @@
     width: 100%;
     border-radius: 10px;
     height: 170px;
-    
+    box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.31);
+}
+.shareWrapper{
+    padding: 10px;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareInputText{
+    outline: none;
+    border: none;
+    width: 90%;
+}
+.shareHr{
+    margin-top: 15px;
+}
+.shareBottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shareOptions{
+    display: flex;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.shareIcon{
+    font-size: 18px !important;
+}
+.shareOptionText{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.shareProfileImg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.shareButtons{
+
+}
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
 }

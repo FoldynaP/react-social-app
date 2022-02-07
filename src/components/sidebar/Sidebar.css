@@ -25,17 +25,45 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .sidebarIcon{
     margin-right: 15px;
 }
-.sidebarButton{
-    border: none;
-    width: 150px;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
+.sidebarMore {
+    display: inline-block;
+    vertical-align: middle;
+  }
+.sidebarMoreBtn a{
+    display: inline-block;
+    border-radius: 50%;
 }
+.bottom {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border: 0.2em solid #333;
+    border-radius: 50%;
+    background-color: #333;
+  }
+  .bottom:hover{
+    background-color: #444;
+    border: 0.2em solid #444;
+    transition: 0.5s;
+  }
+.bottom:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-left: 0.65em;
+    width: 0.5em;
+    height: 0.5em;
+    border-top: 0.2em solid #fff;
+    border-right: 0.2em solid #fff;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
 .sidebarHr{
     margin: 20px 0;
 }
@@ -48,6 +76,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .sidebarFriendImg{
     width: 32px;
