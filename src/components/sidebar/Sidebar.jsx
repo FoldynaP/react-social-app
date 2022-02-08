@@ -15,27 +15,27 @@ export default function Sidebar() {
         <ul className="sidebarList">
           <li className="sidebarListItem">
             <RssFeed className="sidebarIcon" />
-            <span className="sidebarListItemtext">Feed</span>
+            <span className="sidebarListItemtext">Hlavní obsah</span>
           </li>
           <li className="sidebarListItem">
             <Event className="sidebarIcon" />
-            <span className="sidebarListItemtext">Events</span>
+            <span className="sidebarListItemtext">Události</span>
           </li>
           <li className="sidebarListItem">
             <MailOutline className="sidebarIcon" />
-            <span className="sidebarListItemtext">Messages</span>
+            <span className="sidebarListItemtext">Zprávy</span>
           </li>
           <li className="sidebarListItem">
             <OndemandVideo className="sidebarIcon" />
-            <span className="sidebarListItemtext">Videos</span>
+            <span className="sidebarListItemtext">Videa</span>
           </li>
           <li className="sidebarListItem">
             <Group className="sidebarIcon" />
-            <span className="sidebarListItemtext">Groups</span>
+            <span className="sidebarListItemtext">Skupiny</span>
           </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" />
-            <span className="sidebarListItemtext">Jobs</span>
+            <span className="sidebarListItemtext">Inzeráty</span>
           </li>
           <li className="sidebarListItem">
             <Storefront className="sidebarIcon" />

@@ -12,6 +12,7 @@
     align-items: center;
 }
 .shareInputText{
+    font-size: 16px;
     outline: none;
     border: none;
     width: 90%;
@@ -40,7 +41,7 @@
 }
 .shareOptionText{
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 .shareProfileImg{
@@ -55,9 +56,16 @@
 }
 .shareButton{
     border: none;
-    padding: 7px;
+    font-size: 16px;
+    padding: 7px 12px;
     border-radius: 5px;
     font-weight: 500;
     margin-right: 10px;
     cursor: pointer;
+    background-color: #4e2bda;
+    color: #fff;
+}
+.shareButton:hover{
+    background-color: #785de6;
+    transition: 0.5s;
 }

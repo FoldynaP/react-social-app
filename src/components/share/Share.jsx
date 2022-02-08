@@ -13,19 +13,19 @@ export default function Share() {
           <div className="shareBottom">
             <div className="shareOptions">
                 <div className="shareOption">
-                    <PermMedia className="shareIcon"/>
+                    <PermMedia className="shareIcon" htmlColor="Blue"/>
                     <span className="shareOptionText">Fotka nebo video</span>
                 </div>
                 <div className="shareOption">
-                    <Label className="shareIcon"/>
+                    <Label className="shareIcon" htmlColor="purple"/>
                     <span className="shareOptionText">Označit</span>
                 </div>
                 <div className="shareOption">
-                    <Room className="shareIcon"/>
+                    <Room className="shareIcon" htmlColor="green"/>
                     <span className="shareOptionText">Poloha</span>
                 </div>
                 <div className="shareOption">
-                    <EmojiEmotions className="shareIcon"/>
+                    <EmojiEmotions className="shareIcon" htmlColor="gold"/>
                     <span className="shareOptionText">Nálada</span>
                 </div>
             </div>
