@@ -31,7 +31,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <Group className="sidebarIcon" />
-            <span className="sidebarListItemtext">Skupiny</span>
+            <span className="sidebarListItemtext">Memes</span>
           </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" />

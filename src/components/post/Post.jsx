@@ -1,5 +1,5 @@
 import "./Post.css"
-import {MoreVert} from "@material-ui/icons"
+import {MoreVert, ThumbUp, ThumbDown} from "@material-ui/icons"
 
 export default function Post() {
     return (
@@ -21,11 +21,13 @@ export default function Post() {
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    <img src="" alt="" />
-                    <span className="postLikeCounter">109 people like it</span>
+                    <ThumbUp htmlColor="Green"/>
+                    <span className="postLikeCounter">5 To se mi líbí</span>
+                    <ThumbDown htmlColor="Red"/>
+                    <span className="postLikeCounter">2 To se mi nelíbí</span>
                 </div>
                 <div className="postBottomRight">
-
+                    <span className="potBottomRightComments">4 Komentáře</span>
                 </div>
             </div>
           </div>

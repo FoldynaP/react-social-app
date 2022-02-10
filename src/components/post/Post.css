@@ -39,4 +39,25 @@
 }
 .postImg{
     width: 100%;
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: contain;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.postLikeCounter{
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+.potBottomRightComments{
+    font-size: 15px;
 }

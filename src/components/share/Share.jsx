@@ -1,5 +1,5 @@
 import "./Share.css";
-import {PermMedia, Label, Room, EmojiEmotions} from "@material-ui/icons"
+import {PermMedia, Label, Room, EmojiEmotions, AttachFile} from "@material-ui/icons"
 
 export default function Share() {
   return (
@@ -17,8 +17,8 @@ export default function Share() {
                     <span className="shareOptionText">Fotka nebo video</span>
                 </div>
                 <div className="shareOption">
-                    <Label className="shareIcon" htmlColor="purple"/>
-                    <span className="shareOptionText">Označit</span>
+                    <AttachFile className="shareIcon" htmlColor="purple"/>
+                    <span className="shareOptionText">Soubor</span>
                 </div>
                 <div className="shareOption">
                     <Room className="shareIcon" htmlColor="green"/>
