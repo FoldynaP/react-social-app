@@ -58,6 +58,12 @@
     margin-right: 15px;
     font-size: 15px;
 }
+/* If like button is active */
+.liked{
+    background-color: #c2c2c2;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
 .potBottomRightComments{
     font-size: 15px;
 }

@@ -6,7 +6,7 @@ import { OndemandVideo } from "@material-ui/icons"
 import { Group } from "@material-ui/icons"
 import { WorkOutline } from "@material-ui/icons"
 import { Storefront } from "@material-ui/icons"
-
+import CloseFriend from "../closeFriend/CloseFriend";
 
 export default function Sidebar() {
   return (
@@ -49,62 +49,7 @@ export default function Sidebar() {
         </div>
         <hr className="sidebarHr"/>
         <ul className="sidebarFriendList">
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Jan Novák</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user3.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Kuba Skála</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Vojta Hylák</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Petr Nárožný</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Hanka Nejedlá</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user3.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Lenka Smrková</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Filip Kozel</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Michal Korbáček</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Zdeněk Šťastný</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Honza Vomočil</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Klára Vejdová</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Nikola Nárožná</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Jan Pobožný</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/user2.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Svatopluk Čech</span>
-          </li>
+          <CloseFriend/>
         </ul>
       </div>
     </div>

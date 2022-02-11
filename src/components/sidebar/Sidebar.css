@@ -3,6 +3,8 @@
     /*Calculating 100vh minus topbar height*/
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    position: sticky;
+    top: 75px;
 }
 ::-webkit-scrollbar{
     width: 5px;

@@ -6,6 +6,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 .topbarLeft{
     flex: 3;
@@ -46,6 +47,9 @@
     align-items: center;
     justify-content: space-around;
     color: #fff;
+}
+.topbarLinks{
+    margin-left: 10px;
 }
 .topbarLink{
     margin-right: 10px;
