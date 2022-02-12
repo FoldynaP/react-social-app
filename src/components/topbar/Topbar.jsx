@@ -1,10 +1,15 @@
 import "./Topbar.css"
-import {Search, Person, Chat, Notifications} from "@material-ui/icons"
+import {Search, Person, Chat, Notifications, MenuRounded} from "@material-ui/icons"
 
 export default function Topbar() {
   return (
   <div className="topbarContainer">
       <div className="topbarLeft">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         <span className="logo">Asocial site</span>
       </div>
       <div className="topbarCenter">

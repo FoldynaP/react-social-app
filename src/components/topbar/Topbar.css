@@ -1,3 +1,14 @@
+/* Queries */
+@media screen and (max-width: 812px){
+    .logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 805px){
+    .logo{
+        
+    }
+}
 .topbarContainer{
     height: 75px;
     width: 100%;
@@ -11,6 +22,20 @@
 .topbarLeft{
     flex: 3;
     padding: 20px;
+}
+.hamburger{
+
+    cursor: pointer;
+    z-index: 101;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
 }
 .logo{
     font-size: 30px;
@@ -36,7 +61,7 @@
 }
 .searchInput{
     border: none;
-    max-width: 90%;
+    max-width: 80%;
 }
 .searchInput:focus{
     outline: none;
@@ -55,6 +80,7 @@
     margin-right: 10px;
     font-size: 16px;
     cursor: pointer;
+    padding: 25px 5px;
 }
 .topbarIcons{
     display: flex;
@@ -86,4 +112,5 @@
     object-fit: cover;
     cursor: pointer;
     overflow: hidden;
+    margin-right: 10px;
 }
