@@ -47,8 +47,33 @@ export default function Rightbar({profile}) {
           <span className="rightbarInfoValue">Sport</span>
         </div>
       </div>
+      <hr className="sectionSeparator" />
       <h4 className="rightbarTitle">Sledující:</h4>
         <div className="rightbarFollowers">
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
           <div className="rightbarFollowing">
             <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
             <span className="rightbarFollowingName">Random Guy</span>
@@ -60,7 +85,7 @@ export default function Rightbar({profile}) {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        <ProfileRightbar/>
+        {profile ? <ProfileRightbar/> : <HomeRightbar/>}
         </div>
       </div>
   )
