@@ -4,14 +4,14 @@
         display: none;
     }
 }
-@media screen and (max-width: 805px){
-    .logo{
-        
+@media screen and (max-width: 578px){
+    .topbarLinks{
+        display: none;
     }
 }
 .topbarContainer{
-    height: 75px;
-    width: 100%;
+    min-height: 75px;
+    max-width: 100%;
     background-color: #4e2bda;
     display: flex;
     align-items: center;
@@ -23,10 +23,8 @@
     flex: 3;
     padding: 20px;
 }
-.hamburger{
-
-    cursor: pointer;
-    z-index: 101;
+.test{
+    display: none;
 }
 .bar{
     display: block;
@@ -113,4 +111,18 @@
     cursor: pointer;
     overflow: hidden;
     margin-right: 10px;
+}
+
+
+/* Reponsive */
+.topbarContainerResponsive{
+    min-height: 75px;
+    max-width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: none;
 }

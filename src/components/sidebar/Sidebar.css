@@ -1,5 +1,5 @@
 /* Queries */
-@media screen and (max-width: 758px){
+@media screen and (max-width: 812px){
     .sidebarFriendList{
         display: none;
     }
@@ -14,7 +14,7 @@
     height: calc(100vh - 50px);
     overflow-y: scroll;
     position: sticky;
-    top: 75px;
+    top: 20px;
 }
 ::-webkit-scrollbar{
     width: 5px;

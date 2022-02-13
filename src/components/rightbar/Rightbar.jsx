@@ -28,7 +28,32 @@ export default function Rightbar({profile}) {
   const ProfileRightbar = () => {
     return (
       <>
-      <h4>  </h4>
+      <h4 className="rightbarTitle">Informace o uživateli</h4>
+      <div className="rightbarInfo">
+        <div className="rightbarInfoItem">
+          <span className="rightbarInfoKey">Město:</span>
+          <span className="rightbarInfoValue">Česká Třebová</span>
+        </div>
+        <div className="rightbarInfoItem">
+          <span className="rightbarInfoKey">Zaměstnání:</span>
+          <span className="rightbarInfoValue">Řezník</span>
+        </div>
+        <div className="rightbarInfoItem">
+          <span className="rightbarInfoKey">Věk:</span>
+          <span className="rightbarInfoValue">25</span>
+        </div>
+        <div className="rightbarInfoItem">
+          <span className="rightbarInfoKey">Koníčky:</span>
+          <span className="rightbarInfoValue">Sport</span>
+        </div>
+      </div>
+      <h4 className="rightbarTitle">Sledující:</h4>
+        <div className="rightbarFollowers">
+          <div className="rightbarFollowing">
+            <img src="/assets/person/user2.jpg" alt="" className="rightbarFollowingImg" />
+            <span className="rightbarFollowingName">Random Guy</span>
+          </div>
+        </div>
       </>
     )
   }
